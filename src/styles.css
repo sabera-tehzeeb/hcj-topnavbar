@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family:  sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -26,13 +26,13 @@ i {
 }
 
 nav {
-    background: #F6F5F2;
+    background: rgb(111, 36, 36);
     box-shadow: 0 5px 15px #634b01;
 }
 
 .nav-main {
     max-width: 95%;
-    margin: 0 .2rem 0 .2rem;
+    margin: 0.2rem 0.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,12 +57,13 @@ ul {
 
 a {
     text-decoration: none;
+    padding: 15px;
 }
 
 .menu a {
-    color: #074173;
-    font-weight: bolder;
-    font-size: 1.2rem;
+    color: white;
+    
+    font-size: 1rem;
     letter-spacing: 0.1rem;
     display: block;
     padding: 0;
@@ -71,9 +72,16 @@ a {
 }
 
 .menu a:hover {
-    background: #074173;
-    color: #9ed1f5;
+    background: rgb(85, 3, 3);
+    color: whitesmoke;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #ffffff;
+  }
 
 .welcome-msg {
     display: flex;
